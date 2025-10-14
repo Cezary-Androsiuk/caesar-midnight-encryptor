@@ -70,7 +70,7 @@
             comboBox1.Location = new Point(567, 28);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 2;
+            comboBox1.TabIndex = 0;
             // 
             // label2
             // 
@@ -96,7 +96,7 @@
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(706, 100);
-            textBox2.TabIndex = 1;
+            textBox2.TabIndex = 2;
             // 
             // label4
             // 
@@ -113,7 +113,7 @@
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(706, 100);
-            textBox3.TabIndex = 1;
+            textBox3.TabIndex = 4;
             // 
             // label5
             // 
@@ -130,7 +130,7 @@
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(706, 100);
-            textBox4.TabIndex = 1;
+            textBox4.TabIndex = 6;
             // 
             // button1
             // 
@@ -147,7 +147,7 @@
             button2.Location = new Point(598, 337);
             button2.Name = "button2";
             button2.Size = new Size(94, 29);
-            button2.TabIndex = 3;
+            button2.TabIndex = 5;
             button2.Text = "Deszyfruj";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
@@ -195,7 +195,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "Form1";
-            Text = "Form1";
+            Text = "1";
             ResumeLayout(false);
             PerformLayout();
         }

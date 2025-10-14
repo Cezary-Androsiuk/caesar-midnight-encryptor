@@ -143,7 +143,7 @@ namespace bdisi_1_szyfrowanie
 
             //textBox1.Text = "123";
             //comboBox1.Text = EncryptionMethod.Midnight.ToString();
-            //textBox2.Text = "My text was awesome 1234 /";
+            //textBox2.Text = "My random text, 1234. /abcd [{(brackets)}] ++";
 
             /// tests
             //012345678901234567890123456789
@@ -210,7 +210,9 @@ namespace bdisi_1_szyfrowanie
                 label6.Text = "Please provide an encryption key.";
                 return false;
             }
-            else if (textBox1.Text == "0")
+
+            int key = int.Parse(textBox1.Text) % charSet.Length;
+            if (key == 0)
             {
                 label6.Text = "Please provide valid encryption key.";
                 return false;
