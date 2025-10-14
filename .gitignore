@@ -1,0 +1,75 @@
+# Pliki specyficzne dla użytkownika Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Pliki generowane przez Visual Studio
+*.vs/
+*.[Cc]ache
+*.VC.db
+*.sdf
+ipch/
+*.opensdf
+*.opendb
+*.VC.VC.opendb
+
+# Skompilowane pliki binarne
+[Bb]in/
+[Dd]ebug/
+[Oo]bj/
+[Rr]elease/
+x64/
+x86/
+anycpu/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Pliki generowane podczas procesu budowania
+*.build.log
+*.lastbuildstate
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+Generated\ Files/
+publish/
+**/Generated/
+**/*_i.c
+**/*_p.c
+**/*.g.cs
+**/*.g.i.cs
+
+# Pliki związane z zależnościami NuGet
+packages/
+project.lock.json
+project.assets.json
+
+# Pliki wygenerowane przez narzędzia (np. Resharper)
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Pliki specyficzne dla systemu operacyjnego
+[Tt]humbs.db
+$RECYCLE.BIN/
+
+# Pliki konfiguracyjne, które mogą zawierać wrażliwe dane
+*.dbmdl
+*.config.user
